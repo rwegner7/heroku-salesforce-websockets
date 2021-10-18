@@ -1,0 +1,22 @@
+{
+  "name": "fanout-demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "hbs": "~3.1.0",
+    "jsforce": "^1.10.1",
+    "salesforce-jwt-bearer-token-flow": "^0.2.4",
+    "serve-favicon": "~2.3.0",
+    "socket.io": "^4.0"
+  },
+  "description": "Heroku subscribe to CDC Event",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

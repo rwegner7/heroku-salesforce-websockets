@@ -1,0 +1,22 @@
+{
+  "name":"Fan-out pattern Demo",
+  "Description":"This app fires the message to all the clients",
+  "env": {
+    "USERNAME": {
+      "description":"Enter Salesorce org username",
+      "value":""
+    },
+    "CLIENTID": {
+      "description":"Enter Salesorce org clientId",
+      "value":""
+    },
+    "URL": {
+      "description":"Enter Salesorce login url",
+      "value":""
+    },
+    "KEY": {
+      "description":"Enter Salesorce server key",
+      "value":""
+    }
+  }
+}
