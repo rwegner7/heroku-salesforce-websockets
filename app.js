@@ -10,7 +10,7 @@ var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io')(server, {
   cors: {
-    origin: "https://playful-wolf-ug0c1r-dev-ed.lightning.force.com",
+    origin: "https://<instance url>.lightning.force.com",
     methods: ["GET", "POST"],
     allowedHeaders: ["Access-Control-Allow-Origin"],
     credentials: true
